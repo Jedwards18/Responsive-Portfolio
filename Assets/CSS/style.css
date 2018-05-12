@@ -227,27 +227,33 @@ body {
       }
 
       .main-section {
-          width: 600px;
+          width: 100%;
+          max-width: 850px;
           margin-left: 40px;
       }
+
   }
 
   @media screen and (max-width: 768px) {
-
       .main-section {
-          width: 100% !important;
-          
+        width: 100%;
+        max-width: 768px;
       }
-
   }
-
   @media screen and (max-width: 640px) {
 
       .main-section {
           width: 100%;
+          max-width: 640px;
+          margin: auto;
       }
 
       .work {
           clear: both;
+      }
+
+      nav {
+        clear: both;
+        width: 100%;
       }
   }
